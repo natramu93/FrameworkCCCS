@@ -21,6 +21,6 @@ public class LoginData {
 	
 	@DataProvider
 	public Object[][] SearchPatient(){
-		return new Object[][] { ExcelUtils.data("SuiteData.xls", "Sheet1", "searchPatient").toArray() };
+		return new Object[][] { ExcelUtils.getData("TestData.xls", "SearchPatient") };
 	}
 }
